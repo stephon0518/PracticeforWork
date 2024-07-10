@@ -1,0 +1,23 @@
+<dependencies>
+    <!-- Spring Boot Dependencies -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+    <!-- Temporal Dependencies -->
+    <dependency>
+        <groupId>io.temporal</groupId>
+        <artifactId>temporal-sdk</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>io.temporal</groupId>
+        <artifactId>temporal-testing</artifactId>
+        <version>1.0.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Other Dependencies -->
+    <!-- Add other dependencies as required -->
+</dependencies>
